@@ -1,0 +1,32 @@
+﻿<Window x:Class="FishingSimulator.Choice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishingSimulator"
+        mc:Ignorable="d"
+        Title="Choice" Height="450" Width="800">
+    <Grid Background="Gray">
+        <Grid Margin="0,80,400,0">
+
+            <Button Click="Dock_Click">
+                <Image Margin="0,0,0,0" Source="Dock.jpg" Stretch="Fill"/>
+            </Button>
+        </Grid>
+        <Grid Margin="400,80,0,0">
+            <Button Click ="Boat_Click">
+            <Image Margin="0,0,0,0" Source="Canoe.jpg" Stretch="Fill"/>
+                </Button>
+
+        </Grid>
+        <Grid Margin="0,0,0,340">
+            <TextBlock FontSize="26" TextAlignment="Center">Fish the...</TextBlock>
+            <Grid Margin="0,30,400,0">
+                <TextBlock TextAlignment="Center" FontSize="26"> Dock </TextBlock>
+            </Grid>
+            <Grid Margin="400,30,0,0">
+                <TextBlock TextAlignment="Center" FontSize="26"> Boat </TextBlock>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

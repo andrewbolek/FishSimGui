@@ -1,0 +1,14 @@
+﻿<Window x:Class="FishingSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FishingSimulator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Image Source="Main.jpg" Stretch="Fill"/>
+        <Button Content="Enter" Height="30" Width=" 100" Click="Button_Click" Foreground="White" Background="Transparent" Margin="335,227,357,162" />
+        <TextBlock Text="Fishing Simulator" Height="50" Margin="21,19,79,350" FontSize="26" FontFamily="times new roman" />
+    </Grid>
+</Window>
